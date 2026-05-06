@@ -1,3 +1,4 @@
+
 version: '3.8'
 
 services:
@@ -10,9 +11,12 @@ services:
       - "8000:8000"
     env_file:
       - .env
+    environment:
+      POSTGRES_HOST: db
     depends_on:
       - db
       - redis
+
 
   db:
     image: postgres:15
@@ -21,7 +25,7 @@ services:
     environment:
       - POSTGRES_DB=btp_algeria_db
       - POSTGRES_USER=btp_user
-      - POSTGRES_PASSWORD=btp_password
+      - POSTGRES_PASSWORD=${POSTGRES_PASSWORD}
     ports:
       - "5432:5432"
 

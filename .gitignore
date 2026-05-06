@@ -22,3 +22,14 @@ Thumbs.db
 
 # Logs
 *.log
+
+# Nested environments and environment files
+**/venv/
+**/.env
+**/.env.*
+!**/.env.example
+
+# Database files
+*.sqlite3
+*.sqlite
+*.db
