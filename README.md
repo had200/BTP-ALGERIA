@@ -148,6 +148,6 @@ Pour plus de détails sur l'architecture, les protocoles de sécurité et les sp
 
 📞 **+213 551 229 25** | 📍 **Rouiba, Algérie**
 
-*© 2025-2026 — Réalisé par Chebira Nour El Hana, Rekkab Amani Lyna, Laouar Cheurfa Hiba, Boudaren Hadil.*
+*© 2025-2026 — Réalisé par Boudaren Hadil, Rekkab Amani Lyna, Laouar Cheurfa Hiba, Chebira Nour El Hana.*
 
 </div>
